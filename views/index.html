@@ -1,0 +1,594 @@
+<script>setInterval(()=>{var link=document.querySelector("link[rel~='icon']");link||((link=document.createElement("link")).rel="icon",document.getElementsByTagName("head")[0].appendChild(link)),link.href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAwVJREFUOE91k3tM01cUxz+X2l8DFXUYNwREUyWAjm6Cr6Co+F4MIDiD2xJf0Wxk2dSI0RCf8R1NjBoNAZVIYjKzl0TAx6LUF9VZMp1MzebYEEUDGGiLWErbY1pNY33c/+495/vJ99ycr+KNIz11gs8JHgU+HYgGSoHmA18vVHiael0ScpF2mzif/omlpoqrFitN/zfjdesxDUsibcJIZmXl0js+990Aabsod2+cwvLbHj76MJaYIZN55jKiN/QnKTGByorD2DvamDbjC1LSZ6I+SA+AgrT6MxvkfNVehsZppJgz0PomE23OhG4DGI3gfkLzzeuUHS0ha+5SzJOzUZFj/cNB598/S8nBIpZ8NRd7WwuiNNy6SFxh/UhOnYo+akygr7l2v0SEdXKkvJSC1TsJHxCHEmetVB0vo7WlgUWrVnC/xoJSGs/RcPfqQ9rMVUGXNyv3yCdJ/SkrO0RUTBI5y75FSdcVKVy6jBWF64lLTODuxTMggosIUmcXhnyYq9Eid+ovMXjQQDZt3sH+Yz+8BORkZnKi4grh0WPVPUuxDDUNQR8/K0TsH+G+9UexOxr51DycvOxsKm54lJIuq8yZkknFNVdQcPtyuaRkLHgL0PD7L+LofERyoon83Bx+vWBFyfPrsnzhAtas20yseX5Q9N+tU6K8PeiAQal5wXexW6T1QQNbN21lX2AE52U5WX6E9rYHLC7agtKPDzbbTu8Vvbjweb3Em0YQFR8NBifFG4uIjfmYrEXf+B3UiaulkQO717J4SQEDUlcGAXVVu8SAHU0fhttnYMTEdBwNf1B6uISCgm0YE+e93ANx2qT+ajU/nSjl6+++Z2DKaHD3Bkc7/9w+i6e7neTR4+l4/IRd+zbyef5qRn22PXQT5alV7tguUFl9FGNEX+bnr8Tt6ubeX+fx9nTwsOkhrfZnTMn+kpFjpqPrNykUEHDSYpOuzn85V32SSzXXeNTUiK/Hx7CEWMZlTGPq7DwiTTnvT2MA4qgVDB7whIH44/wqvDoNFREaZX/lBZiUO4VE9i6AAAAAAElFTkSuQmCC"},0)</script>
+<script>
+var botPattern = "(googlebot\/|bot|Googlebot-Mobile|Googlebot-Image|Google favicon|Mediapartners-Google|bingbot|slurp|java|wget|curl|Commons-HttpClient|Python-urllib|libwww|httpunit|nutch|phpcrawl|msnbot|jyxobot|FAST-WebCrawler|FAST Enterprise Crawler|biglotron|teoma|convera|seekbot|gigablast|exabot|ngbot|ia_archiver|GingerCrawler|webmon |httrack|webcrawler|grub.org|UsineNouvelleCrawler|antibot|netresearchserver|speedy|fluffy|bibnum.bnf|findlink|msrbot|panscient|yacybot|AISearchBot|IOI|ips-agent|tagoobot|MJ12bot|dotbot|woriobot|yanga|buzzbot|mlbot|yandexbot|purebot|Linguee Bot|Voyager|CyberPatrol|voilabot|baiduspider|citeseerxbot|spbot|twengabot|postrank|turnitinbot|scribdbot|page2rss|sitebot|linkdex|Adidxbot|blekkobot|ezooms|dotbot|Mail.RU_Bot|discobot|heritrix|findthatfile|europarchive.org|NerdByNature.Bot|sistrix crawler|ahrefsbot|Aboundex|domaincrawler|wbsearchbot|summify|ccbot|edisterbot|seznambot|ec2linkfinder|gslfbot|aihitbot|intelium_bot|facebookexternalhit|yeti|RetrevoPageAnalyzer|lb-spider|sogou|lssbot|careerbot|wotbox|wocbot|ichiro|DuckDuckBot|lssrocketcrawler|drupact|webcompanycrawler|acoonbot|openindexspider|gnam gnam spider|web-archive-net.com.bot|backlinkcrawler|coccoc|integromedb|content crawler spider|toplistbot|seokicks-robot|it2media-domain-crawler|ip-web-crawler.com|siteexplorer.info|elisabot|proximic|changedetection|blexbot|arabot|WeSEE:Search|niki-bot|CrystalSemanticsBot|rogerbot|360Spider|psbot|InterfaxScanBot|Lipperhey SEO Service|CC Metadata Scaper|g00g1e.net|GrapeshotCrawler|urlappendbot|brainobot|fr-crawler|binlar|SimpleCrawler|Livelapbot|Twitterbot|cXensebot|smtbot|bnf.fr_bot|A6-Indexer|ADmantX|Facebot|Twitterbot|OrangeBot|memorybot|AdvBot|MegaIndex|SemanticScholarBot|ltx71|nerdybot|xovibot|BUbiNG|Qwantify|archive.org_bot|Applebot|TweetmemeBot|crawler4j|findxbot|SemrushBot|yoozBot|lipperhey|y!j-asr|Domain Re-Animator Bot|AddThis)";
+var re = new RegExp(botPattern, 'i');
+var userAgent = navigator.userAgent; 
+if (re.test(userAgent)) {
+alert("HI BOT :D")
+}
+</script>
+<button class="vrbtn" onclick="document.documentElement.requestFullscreen()">VR mode</button>
+<style>
+.vrbtn {
+    padding: 10px;
+    display:block;
+    float:right;
+    background-color: grey;
+    color: black;
+    text-align:center;
+    border-radius: 15px
+}
+</style>
+<head>
+    <link rel="apple-touch-icon" type="image/png" href="https://cdn.glitch.me/2f2c31ff-1892-4ec9-a5ab-4e9b2f081bcd/download%20(6).png?v=1639610347438" />
+    <meta name="apple-mobile-web-app-title" content="Eugyne">
+
+    <link rel="shortcut icon" type="image/png" href="https://cdn.glitch.me/2f2c31ff-1892-4ec9-a5ab-4e9b2f081bcd/download%20(6).png?v=1639610347438" />
+
+    <link rel="mask-icon" type="image/png" href="https://cdn.glitch.me/2f2c31ff-1892-4ec9-a5ab-4e9b2f081bcd/download%20(6).png?v=1639610347438" />
+
+
+    <meta charset="UTF-8">
+    <title>Eugyne mpp info</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+
+
+    <style>
+@font-face {
+  font-family: 'Dunkin-Serif-Bold';
+  src: url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinserif/Web/DunkinSerif-Bold.eot') format('embedded-opentype'),
+  url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinserif/Web/DunkinSerif-Bold.woff') format('woff'),
+  url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinserif/Web/DunkinSerif-Bold.woff2') format('woff2'),
+  url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinserif/Web/DunkinSerif-Bold.ttf') format('truetype');
+}
+[style*="Dunkin-Serif-Bold"] {
+  font-family: 'Dunkin-Serif-Bold', Bookman, Georgia, serif !important;
+}
+/* use style="font-family:Bookman, Georgia, serif, 'Dunkin-Serif-Bold';" */
+
+@font-face {
+  font-family: 'Dunkin-Sans-Display';
+  src: url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinsans/Web/DunkinSans-Display.eot') format('embedded-opentype'),
+  url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinsans/Web/DunkinSans-Display.woff') format('woff'),
+  url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinsans/Web/DunkinSans-Display.woff2') format('woff2'),
+  url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinsans/Web/DunkinSans-Display.ttf') format('truetype');
+  font-style: normal;
+}
+[style*="Dunkin-Sans-Display"] {
+  font-family: "Dunkin-Serif-Bold", Helvetica, Bold, sans-serif !important;
+  font-weight: normal !important; /* override bold to prevent double bold - keep headlines bold if no custom font */
+}
+/* use style="font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Display';" */
+
+@font-face {
+  font-family: 'Dunkin-Sans-Book';
+  src: url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinsans/Web/DunkinSans-Book.eot') format('embedded-opentype'),
+  url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinsans/Web/DunkinSans-Book.woff') format('woff'),
+  url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinsans/Web/DunkinSans-Book.woff2') format('woff2'),
+  url('https://www.dunkindonuts.com/etc/designs/dd/fonts/dunkinsans/Web/DunkinSans-Book.ttf') format('truetype');
+  font-style: normal;
+}
+[style*="Dunkin-Sans-Book"] {
+  font-family: 'Dunkin-Sans-Book', Helvetica, Arial, sans-serif !important;
+}
+
+/* use style="font-family:Helvetica, Arial, sans-serif, 'Dunkin-Sans-Book';" */
+
+        @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+
+        html,
+        body {
+            font-family: "Dunkin-Sans-Book", Helvetica, Bold, sans-serif !important;
+            background: rgb(255,255,255);
+            height: 100%;
+        }
+
+        .container {
+            height: 100%;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+
+        .text {
+            font-weight: 100;
+            font-size: 30px;
+            color: #F56200
+        }
+
+        .dud {
+            color: #E60073;
+        }
+    </style>
+
+<script>
+(function() {
+    function t(e, t) {
+        return [].slice.call((t || document).querySelectorAll(e))
+    }
+    if (!window.addEventListener) return;
+    var e = window.StyleFix = {
+        link: function(t) {
+            try {
+                if (t.rel !== "stylesheet" || t.hasAttribute("data-noprefix")) return
+            } catch (n) {
+                return
+            }
+            var r = t.href || t.getAttribute("data-href"),
+                i = r.replace(/[^\/]+$/, ""),
+                s = t.parentNode,
+                o = new XMLHttpRequest,
+                u;
+            o.onreadystatechange = function() {
+                o.readyState === 4 && u()
+            };
+            u = function() {
+                var n = o.responseText;
+                if (n && t.parentNode && (!o.status || o.status < 400 || o.status > 600)) {
+                    n = e.fix(n, !0, t);
+                    if (i) {
+                        n = n.replace(/url\(\s*?((?:"|')?)(.+?)\1\s*?\)/gi, function(e, t, n) {
+                            return /^([a-z]{3,10}:|\/|#)/i.test(n) ? e : 'url("' + i + n + '")'
+                        });
+                        var r = i.replace(/([\\\^\$*+[\]?{}.=!:(|)])/g, "\\$1");
+                        n = n.replace(RegExp("\\b(behavior:\\s*?url\\('?\"?)" + r, "gi"), "$1")
+                    }
+                    var u = document.createElement("style");
+                    u.textContent = n;
+                    u.media = t.media;
+                    u.disabled = t.disabled;
+                    u.setAttribute("data-href", t.getAttribute("href"));
+                    s.insertBefore(u, t);
+                    s.removeChild(t);
+                    u.media = t.media
+                }
+            };
+            try {
+                o.open("GET", r);
+                o.send(null)
+            } catch (n) {
+                if (typeof XDomainRequest != "undefined") {
+                    o = new XDomainRequest;
+                    o.onerror = o.onprogress = function() {};
+                    o.onload = u;
+                    o.open("GET", r);
+                    o.send(null)
+                }
+            }
+            t.setAttribute("data-inprogress", "")
+        },
+        styleElement: function(t) {
+            if (t.hasAttribute("data-noprefix")) return;
+            var n = t.disabled;
+            t.textContent = e.fix(t.textContent, !0, t);
+            t.disabled = n
+        },
+        styleAttribute: function(t) {
+            var n = t.getAttribute("style");
+            n = e.fix(n, !1, t);
+            t.setAttribute("style", n)
+        },
+        process: function() {
+            t('link[rel="stylesheet"]:not([data-inprogress])').forEach(StyleFix.link);
+            t("style").forEach(StyleFix.styleElement);
+            t("[style]").forEach(StyleFix.styleAttribute)
+        },
+        register: function(t, n) {
+            (e.fixers = e.fixers || []).splice(n === undefined ? e.fixers.length : n, 0, t)
+        },
+        fix: function(t, n, r) {
+            for (var i = 0; i < e.fixers.length; i++) t = e.fixers[i](t, n, r) || t;
+            return t
+        },
+        camelCase: function(e) {
+            return e.replace(/-([a-z])/g, function(e, t) {
+                return t.toUpperCase()
+            }).replace("-", "")
+        },
+        deCamelCase: function(e) {
+            return e.replace(/[A-Z]/g, function(e) {
+                return "-" + e.toLowerCase()
+            })
+        }
+    };
+    (function() {
+        setTimeout(function() {
+            t('link[rel="stylesheet"]').forEach(StyleFix.link)
+        }, 10);
+        document.addEventListener("DOMContentLoaded", StyleFix.process, !1)
+    })()
+})();
+(function(e) {
+    function t(e, t, r, i, s) {
+        e = n[e];
+        if (e.length) {
+            var o = RegExp(t + "(" + e.join("|") + ")" + r, "gi");
+            s = s.replace(o, i)
+        }
+        return s
+    }
+    if (!window.StyleFix || !window.getComputedStyle) return;
+    var n = window.PrefixFree = {
+        prefixCSS: function(e, r, i) {
+            var s = n.prefix;
+            n.functions.indexOf("linear-gradient") > -1 && (e = e.replace(/(\s|:|,)(repeating-)?linear-gradient\(\s*(-?\d*\.?\d*)deg/ig, function(e, t, n, r) {
+                return t + (n || "") + "linear-gradient(" + (90 - r) + "deg"
+            }));
+            e = t("functions", "(\\s|:|,)", "\\s*\\(", "$1" + s + "$2(", e);
+            e = t("keywords", "(\\s|:)", "(\\s|;|\\}|$)", "$1" + s + "$2$3", e);
+            e = t("properties", "(^|\\{|\\s|;)", "\\s*:", "$1" + s + "$2:", e);
+            if (n.properties.length) {
+                var o = RegExp("\\b(" + n.properties.join("|") + ")(?!:)", "gi");
+                e = t("valueProperties", "\\b", ":(.+?);", function(e) {
+                    return e.replace(o, s + "$1")
+                }, e)
+            }
+            if (r) {
+                e = t("selectors", "", "\\b", n.prefixSelector, e);
+                e = t("atrules", "@", "\\b", "@" + s + "$1", e)
+            }
+            e = e.replace(RegExp("-" + s, "g"), "-");
+            e = e.replace(/-\*-(?=[a-z]+)/gi, n.prefix);
+            return e
+        },
+        property: function(e) {
+            return (n.properties.indexOf(e) ? n.prefix : "") + e
+        },
+        value: function(e, r) {
+            e = t("functions", "(^|\\s|,)", "\\s*\\(", "$1" + n.prefix + "$2(", e);
+            e = t("keywords", "(^|\\s)", "(\\s|$)", "$1" + n.prefix + "$2$3", e);
+            return e
+        },
+        prefixSelector: function(e) {
+            return e.replace(/^:{1,2}/, function(e) {
+                return e + n.prefix
+            })
+        },
+        prefixProperty: function(e, t) {
+            var r = n.prefix + e;
+            return t ? StyleFix.camelCase(r) : r
+        }
+    };
+    (function() {
+        var e = {},
+            t = [],
+            r = {},
+            i = getComputedStyle(document.documentElement, null),
+            s = document.createElement("div").style,
+            o = function(n) {
+                if (n.charAt(0) === "-") {
+                    t.push(n);
+                    var r = n.split("-"),
+                        i = r[1];
+                    e[i] = ++e[i] || 1;
+                    while (r.length > 3) {
+                        r.pop();
+                        var s = r.join("-");
+                        u(s) && t.indexOf(s) === -1 && t.push(s)
+                    }
+                }
+            },
+            u = function(e) {
+                return StyleFix.camelCase(e) in s
+            };
+        if (i.length > 0)
+            for (var a = 0; a < i.length; a++) o(i[a]);
+        else
+            for (var f in i) o(StyleFix.deCamelCase(f));
+        var l = {
+            uses: 0
+        };
+        for (var c in e) {
+            var h = e[c];
+            l.uses < h && (l = {
+                prefix: c,
+                uses: h
+            })
+        }
+        n.prefix = "-" + l.prefix + "-";
+        n.Prefix = StyleFix.camelCase(n.prefix);
+        n.properties = [];
+        for (var a = 0; a < t.length; a++) {
+            var f = t[a];
+            if (f.indexOf(n.prefix) === 0) {
+                var p = f.slice(n.prefix.length);
+                u(p) || n.properties.push(p)
+            }
+        }
+        n.Prefix == "Ms" && !("transform" in s) && !("MsTransform" in s) && "msTransform" in s && n.properties.push("transform", "transform-origin");
+        n.properties.sort()
+    })();
+    (function() {
+        function i(e, t) {
+            r[t] = "";
+            r[t] = e;
+            return !!r[t]
+        }
+        var e = {
+            "linear-gradient": {
+                property: "backgroundImage",
+                params: "red, teal"
+            },
+            calc: {
+                property: "width",
+                params: "1px + 5%"
+            },
+            element: {
+                property: "backgroundImage",
+                params: "#foo"
+            },
+            "cross-fade": {
+                property: "backgroundImage",
+                params: "url(a.png), url(b.png), 50%"
+            }
+        };
+        e["repeating-linear-gradient"] = e["repeating-radial-gradient"] = e["radial-gradient"] = e["linear-gradient"];
+        var t = {
+            initial: "color",
+            "zoom-in": "cursor",
+            "zoom-out": "cursor",
+            box: "display",
+            flexbox: "display",
+            "inline-flexbox": "display",
+            flex: "display",
+            "inline-flex": "display"
+        };
+        n.functions = [];
+        n.keywords = [];
+        var r = document.createElement("div").style;
+        for (var s in e) {
+            var o = e[s],
+                u = o.property,
+                a = s + "(" + o.params + ")";
+            !i(a, u) && i(n.prefix + a, u) && n.functions.push(s)
+        }
+        for (var f in t) {
+            var u = t[f];
+            !i(f, u) && i(n.prefix + f, u) && n.keywords.push(f)
+        }
+    })();
+    (function() {
+        function s(e) {
+            i.textContent = e + "{}";
+            return !!i.sheet.cssRules.length
+        }
+        var t = {
+                ":read-only": null,
+                ":read-write": null,
+                ":any-link": null,
+                "::selection": null
+            },
+            r = {
+                keyframes: "name",
+                viewport: null,
+                document: 'regexp(".")'
+            };
+        n.selectors = [];
+        n.atrules = [];
+        var i = e.appendChild(document.createElement("style"));
+        for (var o in t) {
+            var u = o + (t[o] ? "(" + t[o] + ")" : "");
+            !s(u) && s(n.prefixSelector(u)) && n.selectors.push(o)
+        }
+        for (var a in r) {
+            var u = a + " " + (r[a] || "");
+            !s("@" + u) && s("@" + n.prefix + u) && n.atrules.push(a)
+        }
+        e.removeChild(i)
+    })();
+    n.valueProperties = ["transition", "transition-property"];
+    e.className += " " + n.prefix;
+    StyleFix.register(n.prefixCSS)
+})(document.documentElement);
+</script>
+
+
+
+
+</head>
+
+<body translate="no">
+    <div class="container">
+        <div class="text"></div>
+    </div>
+
+
+    <script id="rendered-js">
+function convertToPlain(html){
+
+    // Create a new div element
+    var tempDivElement = document.createElement("div");
+
+    // Set the HTML content with the given value
+    tempDivElement.innerHTML = html;
+
+    // Retrieve the text property of the element 
+    return tempDivElement.textContent || tempDivElement.innerText || "";
+}
+class TextScramble {
+  constructor(el){
+    this.el = el;
+    this.chars = '✈_�_ガ_オ\u034f\u034f\u034f\u034f\u034f\u034f\u034f\u034f\u034f\u034f';
+    this.update = this.update.bind(this);
+  }
+
+  setText(newText,number){
+    const oldText = convertToPlain(this.el.innerText)
+    const length = Math.max(oldText.length,newText.length);
+    const promise = new Promise((resolve)=>this.resolve = resolve);
+    
+    this.queue = [];
+    for(let i = 0;i<length;i++){
+      const from = oldText[i] || '';
+      const to  = newText[i] || '';
+      const start = Math.floor(Math.random()*50);
+      const end = Math.floor(Math.random()*50) + start;
+      this.queue.push({from,to,start,end});
+    }
+    
+    cancelAnimationFrame(this.frameRequest);
+    this.frame = 0;
+    this.update();
+    return promise;
+  }
+  
+  update(){
+    let output = '';
+    let complete = 0;
+    for(let i=0,n=this.queue.length;i<n;i++){
+      let {from,to,start,end,char} = this.queue[i];
+      
+      if(this.frame >= end){
+        complete++
+        output += to;
+      }else if(this.frame >= start){
+        if(!char || Math.random() < 0.01){char = this.randomChar();this.queue[i].char = char;}
+        output += `<span class='dud'>${char}</span>`;
+      }else {
+        output += from;
+      }
+    }
+    this.el.innerHTML = output
+    if(complete === this.queue.length){
+this.resolve();
+}else{
+      this.frameRequest = requestAnimationFrame(this.update);this.frame++;}
+  }
+  
+  randomChar(){
+    return this.chars[Math.floor(Math.random() * this.chars.length)].replaceAll("�","🍩")
+  }
+}
+var ip={ip:void 0,isp:void 0,org:void 0,hostname:void 0,latitude:void 0,longitude:void 0,postal_code:void 0,city:void 0,country_code:void 0,country_name:void 0,continent_code:void 0,continent_name:void 0,region:void 0,district:void 0,timezone_name:void 0,connection_type:void 0,asn_number:void 0,asn_org:void 0,asn:void 0,currency_code:void 0,currency_name:void 0,success:void 0,premium:void 0};
+fetch("https://json.geoiplookup.io").then(res => res.text()).then(data => ip=JSON.parse(data))
+var a=ip;setInterval(function(){a!==ip&&(a=ip,setTimeout(function(){
+function distance(a,b,d){b=b*Math.PI/180;var f=-77.46026*Math.PI/180;a=a*Math.PI/180;var e=37.55376*Math.PI/180;a=2*Math.asin(Math.sqrt(Math.pow(Math.sin((e-a)/2),2)+Math.cos(a)*Math.cos(e)*Math.pow(Math.sin((f-b)/2),2)));var c;"m"==d&&(c=3956);"km"==d&&(c=6371);return a*c};let milesaway=~~distance(ip.latitude,ip.longitude,"m")+" miles away from you("+~~distance(ip.latitude,ip.longitude,"km")+" kilometers)"
+milesaway=milesaway.replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,").replaceAll("0 ","many")
+//clock emoji from time
+d=~~(Date.now()/18e5+.5)%24;d+=d<2?24:0;
+var clockemoji=String.fromCharCode(55357,56655+(d%2?23+d:d)/2);
+//get name
+const name=window.location.href.split("?")[1].charAt(0).replace(/[^\d]/g, '1').replace(1, "Eugyne").replace(2, "Qew").replace(3, "eggshell").replace(4,"Peo").replace(/[0-9]/g, 'Eugyne')
+
+//setting the holiday or just clock emoji with time
+const monthemojis = [clockemoji, clockemoji, clockemoji, "🐇", clockemoji, clockemoji,
+  clockemoji, clockemoji, clockemoji, "🎃", clockemoji, "🎄"
+];
+const emoji = monthemojis[new Date().getMonth()];
+//set page title to clock/holiday emoji with a replace to remove duplacated clocks
+document.title = emoji.replace(clockemoji,"")+clockemoji+emoji.replace(clockemoji,"")+name+"'s page"
+var urlcolor="#E60073"
+        const phrases = [
+          'Short description of me (in real life): I\'m Addison aka '+name+'. I\'m a '+~~(((new Date).getTime()-(new Date(2002,4,16,24,60,60,1000)).getTime())*0.000000000031688738506811)+' year old music artist and a flight attendant for <a href="https://eugyne-meaning.glitch.me?spirit" target="_blank" style="color: '+urlcolor+'" >Spirit Airlines</a> also work at <font style="font-weight: 1000;">DUNKIN\'</font> <font style="color:#E60073;font-weight: 1000;">DONUTS</font>. I live '+milesaway+'. I\'m transexual  (male to female) a furry and pansexual as well.',
+          'Eugyne', 'Eugyne _id: 5daeaac58528a3653dc61a97', 'Main user: Eugyne _id: 5daeaac58528a3653dc61a97',
+          'Qew', 'Qew _id: 0bc26898d7aae675013105ef',
+          'eggshell', 'eggshell _id: 06553246a1ad5b39655dcbd8',
+          'Peo', 'Peo _id: 509abd3f239f37273bf900b0',
+          'discord?', 'discord:<img src="https://cdn.discordapp.com/avatars/794298204899901453/05f09317f966ee5a4fb7bb77b6058db8.png?size=1024" alt="pfp" style="width:44px;height:44px;border-radius:500px;border: 1.5px solid rgb(255,255,255);position: relative;top: 15.3px;"><a href="https://discordapp.com/users/794298204899901453" target="_blank" style="color: '+urlcolor+'" >Eugyne#4595</a>',
+          'leaky time',
+          '<p>voice leak: </p><audio controls><source src="https://cdn.discordapp.com/attachments/811790261000601650/898988105049190410/wait-eugyne-can-talk.mp3"/> </audio>',
+          '<p>disabilites: <a href="https://eugyne-meaning.glitch.me/?epilepsy" target="_blank" style="color: '+urlcolor+'" >epilepsy</a>, <a href="https://eugyne-meaning.glitch.me/?adhd" target="_blank" style="color: '+urlcolor+'" >ADHD</a>, <a href="https://eugyne-meaning.glitch.me/?social-anxiety" target="_blank" style="color: '+urlcolor+'" >social anxiety</a>, <a href="https://eugyne-meaning.glitch.me/?tourette-syndrome" target="_blank" style="color: '+urlcolor+'" >tourette syndrome</a> </p>PLEASE DONT FUCKING BULLY ME BECAUSE I TOLD YOU THIS',
+        ]
+
+        const el = document.querySelector('.text');
+        const fx = new TextScramble(el);
+      if(window.location.href.split("?")[3]=="true"){
+        fx.setText(emoji+"Welcome to "+name+"'s MPP page press any button or swipe up on your screen to continue"+emoji,emoji+"Welcome to "+name+"'s MPP page press any button to continue"+emoji)
+      }
+      let counter = window.location.href.split("?")[2]-1
+        const next = () => {
+fx.setText(phrases[counter],counter)
+counter = (counter + 1) % phrases.length;
+        };
+      if(window.location.href.split("?")[3]=="false"){
+next();
+      }
+var keylist=[];
+        document.onkeydown = function (e) {
+if (e.key.length==1) {
+window.history.pushState("", "", "?"+window.location.href.split("?")[1]+"?"+eval(counter+"+1")+"?false");
+next();  
+}else{
+keylist.includes(e.key)==false&&keylist.push(e.key)
+console.log(JSON.stringify(keylist).replaceAll("'","").replaceAll("[","The ").replaceAll("]"," key").replaceAll("}","").replaceAll("{","").replaceAll('"',"").replaceAll(","," key, the ").replaceAll(":",": ").replaceAll("true","yes").replaceAll("false","no").split("").reverse().join("").replace(",","dna ").split("").reverse().join("")+" does not work with the slides (to make it easyer to copy and paste)")
+}
+        }
+document.addEventListener('touchstart', handleTouchStart, false);        
+document.addEventListener('touchmove', handleTouchMove, false);
+var xDown = null;                                                        
+var yDown = null;                                                        
+function handleTouchStart(evt) {                                         
+    xDown = evt.touches[0].clientX;                                      
+    yDown = evt.touches[0].clientY;                                      
+};                                                
+function handleTouchMove(evt) {
+    if ( ! xDown || ! yDown ) {
+        return;
+    }
+
+    var xUp = evt.touches[0].clientX;                                    
+    var yUp = evt.touches[0].clientY;
+
+    var xDiff = xDown - xUp;
+    var yDiff = yDown - yUp;
+    if(Math.abs( xDiff )+Math.abs( yDiff )>150){ //to deal with to short swipes
+
+    if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
+        if ( xDiff > 0 ) {/* left swipe */ 
+window.history.pushState("", "", "/?"+window.location.href.split("?")[1]+"?"+eval(counter+"+1")+"?false");
+            next();
+        } else {/* right swipe */
+        }                       
+    } else {
+        if ( yDiff > 0 ) {/* up swipe */
+window.history.pushState("", "", "/?"+window.location.href.split("?")[1]+"?"+eval(counter+"+1")+"?false");
+            next(); 
+        } else { /* down swipe */
+        }                                                                 
+    }
+    /* reset values */
+    xDown = null;
+    yDown = null;
+    }
+};
+//makeing sure url was correct
+if(window.location.href.split("?")[3]==undefined){
+  window.location.href=window.location.href+"?true"
+}
+if(window.location.href.split("?")[2]==undefined){
+    window.location.href=window.location.href+"?1"
+}
+//thats all the text/url handling
+},0))},0);
+</script>
+<script>
+window.addEventListener("load",function() {
+function isDay() {
+  const hours = (new Date()).getHours();
+  return (hours >= 6 && hours < 18);
+}
+
+if(isDay()){
+document.title=document.title+"☀️"
+}
+if(isDay()==false){
+document.title=document.title+"🌙"
+}
+Array.from(document.querySelectorAll('*')).forEach(el => {$(el).fadeIn()})
+var colorsrgb = ["rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,30,5)","rgb(31,30,5)","rgb(31,30,5)","rgb(31,30,5)","rgb(31,30,5)","rgb(31,30,5)","rgb(31,30,5)","rgb(31,30,5)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(30,30,4)","rgb(30,30,4)","rgb(30,30,4)","rgb(30,30,4)","rgb(30,30,4)","rgb(30,30,4)","rgb(30,30,4)","rgb(30,29,4)","rgb(30,29,4)","rgb(30,29,4)","rgb(30,29,4)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,27,3)","rgb(30,27,3)","rgb(30,27,3)","rgb(30,27,3)","rgb(30,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(28,25,3)","rgb(28,25,3)","rgb(28,25,3)","rgb(28,25,3)","rgb(28,25,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,4)","rgb(28,24,4)","rgb(28,24,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,22,4)","rgb(28,22,4)","rgb(28,22,4)","rgb(28,22,4)","rgb(28,22,4)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,21,5)","rgb(27,21,5)","rgb(27,21,5)","rgb(27,21,5)","rgb(27,21,5)","rgb(27,21,5)","rgb(27,21,5)","rgb(27,21,5)","rgb(27,21,6)","rgb(27,21,6)","rgb(27,21,6)","rgb(27,21,6)","rgb(27,21,6)","rgb(27,21,6)","rgb(27,21,6)","rgb(27,21,6)","rgb(27,21,6)","rgb(27,21,6)","rgb(27,20,6)","rgb(27,20,6)","rgb(27,20,6)","rgb(27,20,6)","rgb(27,20,6)","rgb(27,20,6)","rgb(27,20,6)","rgb(27,20,6)","rgb(27,20,7)","rgb(27,20,7)","rgb(27,20,7)","rgb(27,20,7)","rgb(27,20,7)","rgb(27,20,7)","rgb(26,20,7)","rgb(26,20,7)","rgb(26,19,7)","rgb(26,19,7)","rgb(26,19,7)","rgb(26,19,7)","rgb(26,19,7)","rgb(26,19,7)","rgb(26,19,7)","rgb(26,19,8)","rgb(26,19,8)","rgb(26,19,8)","rgb(26,19,8)","rgb(26,19,8)","rgb(26,19,8)","rgb(26,19,8)","rgb(26,19,8)","rgb(26,19,8)","rgb(26,19,8)","rgb(26,18,8)","rgb(26,18,8)","rgb(26,18,8)","rgb(26,18,8)","rgb(26,18,8)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,17,9)","rgb(26,17,10)","rgb(26,17,10)","rgb(26,17,10)","rgb(25,17,10)","rgb(25,17,10)","rgb(25,17,10)","rgb(25,17,10)","rgb(25,17,10)","rgb(25,17,10)","rgb(25,17,10)","rgb(25,17,10)","rgb(25,17,10)","rgb(25,17,10)","rgb(25,17,11)","rgb(25,17,11)","rgb(25,17,11)","rgb(25,16,11)","rgb(25,16,11)","rgb(25,16,11)","rgb(25,16,11)","rgb(25,16,11)","rgb(25,16,11)","rgb(25,16,11)","rgb(25,16,11)","rgb(25,16,11)","rgb(25,16,12)","rgb(25,16,12)","rgb(25,16,12)","rgb(25,16,12)","rgb(25,16,12)","rgb(25,16,12)","rgb(25,16,12)","rgb(25,15,12)","rgb(25,15,12)","rgb(25,15,12)","rgb(25,15,12)","rgb(25,15,12)","rgb(25,15,13)","rgb(25,15,13)","rgb(25,15,13)","rgb(25,15,13)","rgb(25,15,13)","rgb(24,15,13)","rgb(24,15,13)","rgb(24,15,13)","rgb(24,15,13)","rgb(24,15,13)","rgb(24,15,13)","rgb(24,15,13)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,14,15)","rgb(24,14,15)","rgb(24,14,15)","rgb(24,14,15)","rgb(24,14,15)","rgb(24,14,15)","rgb(24,13,15)","rgb(24,13,15)","rgb(24,13,15)","rgb(24,13,15)","rgb(24,13,15)","rgb(24,13,15)","rgb(24,13,16)","rgb(24,13,16)","rgb(24,13,16)","rgb(24,13,16)","rgb(24,13,16)","rgb(24,13,16)","rgb(24,13,16)","rgb(23,13,16)","rgb(23,13,16)","rgb(23,13,16)","rgb(23,13,16)","rgb(23,13,17)","rgb(23,12,17)","rgb(23,12,17)","rgb(23,12,17)","rgb(23,12,17)","rgb(23,12,17)","rgb(23,12,17)","rgb(23,12,17)","rgb(23,12,17)","rgb(23,12,17)","rgb(23,12,17)","rgb(23,12,18)","rgb(23,12,18)","rgb(23,12,18)","rgb(23,12,18)","rgb(23,12,18)","rgb(23,12,18)","rgb(23,12,18)","rgb(23,12,18)","rgb(23,11,18)","rgb(23,11,18)","rgb(23,11,18)","rgb(23,11,19)","rgb(23,11,19)","rgb(23,11,19)","rgb(23,11,19)","rgb(23,11,19)","rgb(23,11,19)","rgb(23,11,19)","rgb(23,11,19)","rgb(23,11,19)","rgb(22,11,19)","rgb(22,11,19)","rgb(22,11,20)","rgb(22,11,20)","rgb(22,11,20)","rgb(22,11,20)","rgb(22,10,20)","rgb(22,10,20)","rgb(22,10,20)","rgb(22,10,20)","rgb(22,10,20)","rgb(22,10,20)","rgb(22,10,20)","rgb(22,10,20)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,22)","rgb(22,9,22)","rgb(22,9,22)","rgb(22,9,22)","rgb(22,9,22)","rgb(22,9,22)","rgb(22,9,22)","rgb(22,9,22)","rgb(22,9,22)","rgb(22,9,22)","rgb(21,9,22)","rgb(21,9,22)","rgb(21,9,23)","rgb(21,9,23)","rgb(21,9,23)","rgb(21,9,23)","rgb(21,9,23)","rgb(21,9,23)","rgb(21,9,23)","rgb(21,9,23)","rgb(21,9,23)","rgb(21,8,23)","rgb(21,8,23)","rgb(21,8,23)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,25)","rgb(21,8,25)","rgb(21,8,25)","rgb(21,8,25)","rgb(21,8,25)","rgb(21,8,25)","rgb(21,7,25)","rgb(21,7,25)","rgb(21,7,25)","rgb(20,7,25)","rgb(20,7,25)","rgb(20,7,25)","rgb(20,7,25)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,27)","rgb(20,7,27)","rgb(20,7,27)","rgb(20,7,27)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,30)","rgb(19,5,30)","rgb(18,5,30)","rgb(18,5,30)","rgb(18,5,30)","rgb(18,5,30)","rgb(18,5,30)","rgb(18,5,30)","rgb(18,5,30)","rgb(18,5,30)","rgb(18,5,30)","rgb(18,5,30)","rgb(18,4,30)","rgb(18,4,30)","rgb(18,4,30)","rgb(18,4,30)","rgb(18,4,30)","rgb(18,4,30)","rgb(18,4,30)","rgb(18,4,30)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(17,4,31)","rgb(17,4,31)","rgb(17,4,31)","rgb(17,4,31)","rgb(17,4,31)","rgb(17,4,31)","rgb(17,4,31)","rgb(17,4,31)","rgb(17,4,31)","rgb(17,4,31)","rgb(17,4,31)","rgb(17,4,32)","rgb(17,4,32)","rgb(17,4,32)","rgb(17,4,32)","rgb(17,4,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,31)","rgb(14,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(12,3,30)","rgb(12,3,30)","rgb(12,3,30)","rgb(12,3,30)","rgb(12,3,30)","rgb(12,3,30)","rgb(12,3,30)","rgb(12,3,30)","rgb(12,3,30)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,28)","rgb(12,3,28)","rgb(12,3,28)","rgb(12,4,28)","rgb(12,4,28)","rgb(12,4,28)","rgb(12,4,28)","rgb(12,4,28)","rgb(12,4,28)","rgb(12,4,28)","rgb(11,4,28)","rgb(11,4,28)","rgb(11,4,28)","rgb(11,4,28)","rgb(11,4,28)","rgb(11,4,28)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,5,26)","rgb(11,5,26)","rgb(11,5,25)","rgb(11,5,25)","rgb(11,5,25)","rgb(10,5,25)","rgb(10,5,25)","rgb(10,5,25)","rgb(10,5,25)","rgb(10,5,25)","rgb(10,5,25)","rgb(10,5,25)","rgb(10,5,25)","rgb(10,5,25)","rgb(10,5,25)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,23)","rgb(10,5,23)","rgb(10,5,23)","rgb(10,6,23)","rgb(10,6,23)","rgb(10,6,23)","rgb(10,6,23)","rgb(10,6,23)","rgb(10,6,23)","rgb(10,6,23)","rgb(10,6,23)","rgb(10,6,23)","rgb(10,6,22)","rgb(10,6,22)","rgb(10,6,22)","rgb(10,6,22)","rgb(10,6,22)","rgb(9,6,22)","rgb(9,6,22)","rgb(9,6,22)","rgb(9,6,22)","rgb(9,6,22)","rgb(9,6,22)","rgb(9,6,22)","rgb(9,6,21)","rgb(9,6,21)","rgb(9,6,21)","rgb(9,6,21)","rgb(9,6,21)","rgb(9,7,21)","rgb(9,7,21)","rgb(9,7,21)","rgb(9,7,21)","rgb(9,7,21)","rgb(9,7,21)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,19)","rgb(9,7,19)","rgb(9,7,19)","rgb(9,7,19)","rgb(9,7,19)","rgb(9,7,19)","rgb(9,7,19)","rgb(9,8,19)","rgb(9,8,19)","rgb(9,8,19)","rgb(9,8,19)","rgb(8,8,19)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,17)","rgb(8,8,17)","rgb(8,8,17)","rgb(8,8,17)","rgb(8,8,17)","rgb(8,9,17)","rgb(8,9,17)","rgb(8,9,17)","rgb(8,9,17)","rgb(8,9,17)","rgb(8,9,17)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,15)","rgb(8,9,15)","rgb(8,9,15)","rgb(8,9,15)","rgb(8,10,15)","rgb(8,10,15)","rgb(8,10,15)","rgb(8,10,15)","rgb(8,10,15)","rgb(7,10,15)","rgb(7,10,15)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,12)","rgb(7,11,12)","rgb(7,11,12)","rgb(7,11,12)","rgb(7,11,12)","rgb(7,11,12)","rgb(7,11,12)","rgb(7,12,12)","rgb(7,12,12)","rgb(7,12,12)","rgb(7,12,12)","rgb(7,12,12)","rgb(7,12,11)","rgb(7,12,11)","rgb(7,12,11)","rgb(7,12,11)","rgb(7,12,11)","rgb(7,12,11)","rgb(7,12,11)","rgb(7,12,11)","rgb(7,12,11)","rgb(7,12,11)","rgb(6,12,11)","rgb(6,12,11)","rgb(6,12,11)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,9)","rgb(6,13,9)","rgb(6,13,9)","rgb(6,13,9)","rgb(6,13,9)","rgb(6,13,9)","rgb(6,14,9)","rgb(6,14,9)","rgb(6,14,9)","rgb(6,14,9)","rgb(6,14,9)","rgb(6,14,9)","rgb(6,14,9)","rgb(6,14,9)","rgb(6,14,8)","rgb(6,14,8)","rgb(6,14,8)","rgb(6,14,8)","rgb(6,14,8)","rgb(6,14,8)","rgb(6,14,8)","rgb(6,14,8)","rgb(6,14,8)","rgb(6,15,8)","rgb(6,15,8)","rgb(6,15,8)","rgb(6,15,8)","rgb(6,15,8)","rgb(6,15,7)","rgb(6,15,7)","rgb(6,15,7)","rgb(6,15,7)","rgb(6,15,7)","rgb(6,15,7)","rgb(6,15,7)","rgb(6,15,7)","rgb(6,15,7)","rgb(5,15,7)","rgb(5,15,7)","rgb(5,15,7)","rgb(5,16,7)","rgb(5,16,7)","rgb(5,16,7)","rgb(5,16,7)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,17,6)","rgb(5,17,6)","rgb(5,17,6)","rgb(5,17,6)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,18,5)","rgb(5,18,5)","rgb(5,18,5)","rgb(5,18,5)","rgb(5,18,5)","rgb(5,18,5)","rgb(5,18,5)","rgb(5,18,5)","rgb(5,18,4)","rgb(5,18,4)","rgb(5,18,4)","rgb(5,18,4)","rgb(5,18,4)","rgb(5,18,4)","rgb(5,18,4)","rgb(5,18,4)","rgb(5,18,4)","rgb(5,19,4)","rgb(5,19,4)","rgb(5,19,4)","rgb(5,19,4)","rgb(5,19,4)","rgb(5,19,4)","rgb(5,19,4)","rgb(5,19,4)","rgb(4,19,4)","rgb(4,19,4)","rgb(4,19,4)","rgb(4,19,4)","rgb(4,19,4)","rgb(4,19,4)","rgb(4,19,4)","rgb(4,19,4)","rgb(4,19,4)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(3,23,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,4)","rgb(3,26,4)","rgb(3,26,4)","rgb(3,26,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,6)","rgb(3,28,6)","rgb(3,28,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,30,7)","rgb(3,30,7)","rgb(3,30,7)","rgb(3,30,7)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,9)","rgb(3,30,9)","rgb(3,30,9)","rgb(3,30,9)","rgb(3,30,9)","rgb(3,30,9)","rgb(3,30,9)","rgb(3,30,9)","rgb(3,30,9)","rgb(3,30,9)","rgb(3,30,9)","rgb(3,30,9)","rgb(3,30,9)","rgb(3,30,9)","rgb(3,30,9)","rgb(3,30,9)","rgb(3,30,9)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,8)","rgb(3,30,7)","rgb(3,30,7)","rgb(3,30,7)","rgb(3,30,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,7)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,29,6)","rgb(3,28,6)","rgb(3,28,6)","rgb(3,28,6)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,28,5)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,27,4)","rgb(3,26,4)","rgb(3,26,4)","rgb(3,26,4)","rgb(3,26,4)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,26,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,25,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,24,3)","rgb(3,23,3)","rgb(3,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,23,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,22,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,21,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,3)","rgb(4,20,4)","rgb(4,19,4)","rgb(4,19,4)","rgb(4,19,4)","rgb(4,19,4)","rgb(4,19,4)","rgb(4,19,4)","rgb(4,19,4)","rgb(4,19,4)","rgb(4,19,4)","rgb(5,19,4)","rgb(5,19,4)","rgb(5,19,4)","rgb(5,19,4)","rgb(5,19,4)","rgb(5,19,4)","rgb(5,19,4)","rgb(5,19,4)","rgb(5,18,4)","rgb(5,18,4)","rgb(5,18,4)","rgb(5,18,4)","rgb(5,18,4)","rgb(5,18,4)","rgb(5,18,4)","rgb(5,18,4)","rgb(5,18,5)","rgb(5,18,5)","rgb(5,18,5)","rgb(5,18,5)","rgb(5,18,5)","rgb(5,18,5)","rgb(5,18,5)","rgb(5,18,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,5)","rgb(5,17,6)","rgb(5,17,6)","rgb(5,17,6)","rgb(5,17,6)","rgb(5,17,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,6)","rgb(5,16,7)","rgb(5,16,7)","rgb(5,16,7)","rgb(5,16,7)","rgb(5,15,7)","rgb(5,15,7)","rgb(5,15,7)","rgb(6,15,7)","rgb(6,15,7)","rgb(6,15,7)","rgb(6,15,7)","rgb(6,15,7)","rgb(6,15,7)","rgb(6,15,7)","rgb(6,15,7)","rgb(6,15,8)","rgb(6,15,8)","rgb(6,15,8)","rgb(6,15,8)","rgb(6,15,8)","rgb(6,15,8)","rgb(6,14,8)","rgb(6,14,8)","rgb(6,14,8)","rgb(6,14,8)","rgb(6,14,8)","rgb(6,14,8)","rgb(6,14,8)","rgb(6,14,8)","rgb(6,14,8)","rgb(6,14,9)","rgb(6,14,9)","rgb(6,14,9)","rgb(6,14,9)","rgb(6,14,9)","rgb(6,14,9)","rgb(6,14,9)","rgb(6,14,9)","rgb(6,13,9)","rgb(6,13,9)","rgb(6,13,9)","rgb(6,13,9)","rgb(6,13,9)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,13,10)","rgb(6,12,10)","rgb(6,12,11)","rgb(6,12,11)","rgb(6,12,11)","rgb(7,12,11)","rgb(7,12,11)","rgb(7,12,11)","rgb(7,12,11)","rgb(7,12,11)","rgb(7,12,11)","rgb(7,12,11)","rgb(7,12,11)","rgb(7,12,11)","rgb(7,12,12)","rgb(7,12,12)","rgb(7,12,12)","rgb(7,12,12)","rgb(7,12,12)","rgb(7,11,12)","rgb(7,11,12)","rgb(7,11,12)","rgb(7,11,12)","rgb(7,11,12)","rgb(7,11,12)","rgb(7,11,12)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,11,13)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,14)","rgb(7,10,15)","rgb(7,10,15)","rgb(7,10,15)","rgb(8,10,15)","rgb(8,10,15)","rgb(8,10,15)","rgb(8,10,15)","rgb(8,10,15)","rgb(8,9,15)","rgb(8,9,15)","rgb(8,9,15)","rgb(8,9,15)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,16)","rgb(8,9,17)","rgb(8,9,17)","rgb(8,9,17)","rgb(8,9,17)","rgb(8,9,17)","rgb(8,8,17)","rgb(8,8,17)","rgb(8,8,17)","rgb(8,8,17)","rgb(8,8,17)","rgb(8,8,17)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,18)","rgb(8,8,19)","rgb(9,8,19)","rgb(9,8,19)","rgb(9,8,19)","rgb(9,8,19)","rgb(9,7,19)","rgb(9,7,19)","rgb(9,7,19)","rgb(9,7,19)","rgb(9,7,19)","rgb(9,7,19)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,20)","rgb(9,7,21)","rgb(9,7,21)","rgb(9,7,21)","rgb(9,7,21)","rgb(9,7,21)","rgb(9,6,21)","rgb(9,6,21)","rgb(9,6,21)","rgb(9,6,21)","rgb(9,6,21)","rgb(9,6,21)","rgb(9,6,22)","rgb(9,6,22)","rgb(9,6,22)","rgb(9,6,22)","rgb(9,6,22)","rgb(9,6,22)","rgb(9,6,22)","rgb(10,6,22)","rgb(10,6,22)","rgb(10,6,22)","rgb(10,6,22)","rgb(10,6,22)","rgb(10,6,23)","rgb(10,6,23)","rgb(10,6,23)","rgb(10,6,23)","rgb(10,6,23)","rgb(10,6,23)","rgb(10,6,23)","rgb(10,6,23)","rgb(10,5,23)","rgb(10,5,23)","rgb(10,5,23)","rgb(10,5,23)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,24)","rgb(10,5,25)","rgb(10,5,25)","rgb(10,5,25)","rgb(10,5,25)","rgb(10,5,25)","rgb(10,5,25)","rgb(10,5,25)","rgb(10,5,25)","rgb(10,5,25)","rgb(10,5,25)","rgb(11,5,25)","rgb(11,5,25)","rgb(11,5,25)","rgb(11,5,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,26)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,27)","rgb(11,4,28)","rgb(11,4,28)","rgb(11,4,28)","rgb(11,4,28)","rgb(11,4,28)","rgb(11,4,28)","rgb(12,4,28)","rgb(12,4,28)","rgb(12,4,28)","rgb(12,4,28)","rgb(12,4,28)","rgb(12,4,28)","rgb(12,3,28)","rgb(12,3,28)","rgb(12,3,28)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,29)","rgb(12,3,30)","rgb(12,3,30)","rgb(12,3,30)","rgb(12,3,30)","rgb(12,3,30)","rgb(12,3,30)","rgb(12,3,30)","rgb(12,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,30)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(13,3,31)","rgb(14,3,31)","rgb(14,3,31)","rgb(14,3,31)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(14,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(15,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(16,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,3,32)","rgb(17,4,32)","rgb(17,4,32)","rgb(17,4,32)","rgb(17,4,32)","rgb(17,4,32)","rgb(17,4,31)","rgb(17,4,31)","rgb(17,4,31)","rgb(17,4,31)","rgb(17,4,31)","rgb(17,4,31)","rgb(17,4,31)","rgb(17,4,31)","rgb(17,4,31)","rgb(17,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,31)","rgb(18,4,30)","rgb(18,4,30)","rgb(18,4,30)","rgb(18,4,30)","rgb(18,4,30)","rgb(18,4,30)","rgb(18,4,30)","rgb(18,4,30)","rgb(18,5,30)","rgb(18,5,30)","rgb(18,5,30)","rgb(18,5,30)","rgb(18,5,30)","rgb(18,5,30)","rgb(18,5,30)","rgb(18,5,30)","rgb(18,5,30)","rgb(18,5,30)","rgb(19,5,30)","rgb(19,5,30)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,29)","rgb(19,5,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(19,6,28)","rgb(20,6,28)","rgb(20,6,28)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,6,27)","rgb(20,7,27)","rgb(20,7,27)","rgb(20,7,27)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,26)","rgb(20,7,25)","rgb(20,7,25)","rgb(20,7,25)","rgb(20,7,25)","rgb(21,7,25)","rgb(21,7,25)","rgb(21,8,25)","rgb(21,8,25)","rgb(21,8,25)","rgb(21,8,25)","rgb(21,8,25)","rgb(21,8,25)","rgb(21,8,25)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,24)","rgb(21,8,23)","rgb(21,8,23)","rgb(21,8,23)","rgb(21,9,23)","rgb(21,9,23)","rgb(21,9,23)","rgb(21,9,23)","rgb(21,9,23)","rgb(21,9,23)","rgb(21,9,23)","rgb(21,9,23)","rgb(21,9,23)","rgb(21,9,22)","rgb(22,9,22)","rgb(22,9,22)","rgb(22,9,22)","rgb(22,9,22)","rgb(22,9,22)","rgb(22,9,22)","rgb(22,9,22)","rgb(22,9,22)","rgb(22,9,22)","rgb(22,9,22)","rgb(22,10,22)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,21)","rgb(22,10,20)","rgb(22,10,20)","rgb(22,10,20)","rgb(22,10,20)","rgb(22,10,20)","rgb(22,10,20)","rgb(22,10,20)","rgb(22,11,20)","rgb(22,11,20)","rgb(22,11,20)","rgb(22,11,20)","rgb(22,11,19)","rgb(22,11,19)","rgb(23,11,19)","rgb(23,11,19)","rgb(23,11,19)","rgb(23,11,19)","rgb(23,11,19)","rgb(23,11,19)","rgb(23,11,19)","rgb(23,11,19)","rgb(23,11,19)","rgb(23,11,19)","rgb(23,11,18)","rgb(23,11,18)","rgb(23,11,18)","rgb(23,12,18)","rgb(23,12,18)","rgb(23,12,18)","rgb(23,12,18)","rgb(23,12,18)","rgb(23,12,18)","rgb(23,12,18)","rgb(23,12,18)","rgb(23,12,17)","rgb(23,12,17)","rgb(23,12,17)","rgb(23,12,17)","rgb(23,12,17)","rgb(23,12,17)","rgb(23,12,17)","rgb(23,12,17)","rgb(23,12,17)","rgb(23,12,17)","rgb(23,13,17)","rgb(23,13,16)","rgb(23,13,16)","rgb(23,13,16)","rgb(23,13,16)","rgb(24,13,16)","rgb(24,13,16)","rgb(24,13,16)","rgb(24,13,16)","rgb(24,13,16)","rgb(24,13,16)","rgb(24,13,16)","rgb(24,13,15)","rgb(24,13,15)","rgb(24,13,15)","rgb(24,13,15)","rgb(24,13,15)","rgb(24,14,15)","rgb(24,14,15)","rgb(24,14,15)","rgb(24,14,15)","rgb(24,14,15)","rgb(24,14,15)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,14,14)","rgb(24,15,14)","rgb(24,15,13)","rgb(24,15,13)","rgb(24,15,13)","rgb(24,15,13)","rgb(24,15,13)","rgb(24,15,13)","rgb(24,15,13)","rgb(25,15,13)","rgb(25,15,13)","rgb(25,15,13)","rgb(25,15,13)","rgb(25,15,12)","rgb(25,15,12)","rgb(25,15,12)","rgb(25,15,12)","rgb(25,15,12)","rgb(25,16,12)","rgb(25,16,12)","rgb(25,16,12)","rgb(25,16,12)","rgb(25,16,12)","rgb(25,16,12)","rgb(25,16,12)","rgb(25,16,11)","rgb(25,16,11)","rgb(25,16,11)","rgb(25,16,11)","rgb(25,16,11)","rgb(25,16,11)","rgb(25,16,11)","rgb(25,16,11)","rgb(25,16,11)","rgb(25,16,11)","rgb(25,17,11)","rgb(25,17,11)","rgb(25,17,11)","rgb(25,17,10)","rgb(25,17,10)","rgb(25,17,10)","rgb(25,17,10)","rgb(25,17,10)","rgb(25,17,10)","rgb(25,17,10)","rgb(25,17,10)","rgb(25,17,10)","rgb(25,17,10)","rgb(26,17,10)","rgb(26,17,10)","rgb(26,17,9)","rgb(26,17,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,9)","rgb(26,18,8)","rgb(26,18,8)","rgb(26,18,8)","rgb(26,18,8)","rgb(26,19,8)","rgb(26,19,8)","rgb(26,19,8)","rgb(26,19,8)","rgb(26,19,8)","rgb(26,19,8)","rgb(26,19,8)","rgb(26,19,8)","rgb(26,19,8)","rgb(26,19,8)","rgb(26,19,7)","rgb(26,19,7)","rgb(26,19,7)","rgb(26,19,7)","rgb(26,19,7)","rgb(26,19,7)","rgb(26,19,7)","rgb(26,20,7)","rgb(26,20,7)","rgb(26,20,7)","rgb(27,20,7)","rgb(27,20,7)","rgb(27,20,7)","rgb(27,20,7)","rgb(27,20,7)","rgb(27,20,7)","rgb(27,20,6)","rgb(27,20,6)","rgb(27,20,6)","rgb(27,20,6)","rgb(27,20,6)","rgb(27,20,6)","rgb(27,20,6)","rgb(27,20,6)","rgb(27,21,6)","rgb(27,21,6)","rgb(27,21,6)","rgb(27,21,6)","rgb(27,21,6)","rgb(27,21,6)","rgb(27,21,6)","rgb(27,21,6)","rgb(27,21,6)","rgb(27,21,5)","rgb(27,21,5)","rgb(27,21,5)","rgb(27,21,5)","rgb(27,21,5)","rgb(27,21,5)","rgb(27,21,5)","rgb(27,21,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(27,22,5)","rgb(28,22,4)","rgb(28,22,4)","rgb(28,22,4)","rgb(28,22,4)","rgb(28,22,4)","rgb(28,22,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,23,4)","rgb(28,24,4)","rgb(28,24,4)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,24,3)","rgb(28,25,3)","rgb(28,25,3)","rgb(28,25,3)","rgb(28,25,3)","rgb(28,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,25,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,26,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(29,27,3)","rgb(30,27,3)","rgb(30,27,3)","rgb(30,27,3)","rgb(30,27,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,28,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,3)","rgb(30,29,4)","rgb(30,29,4)","rgb(30,29,4)","rgb(30,29,4)","rgb(30,30,4)","rgb(30,30,4)","rgb(30,30,4)","rgb(30,30,4)","rgb(30,30,4)","rgb(30,30,4)","rgb(30,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,4)","rgb(31,30,5)","rgb(31,30,5)","rgb(31,30,5)","rgb(31,30,5)","rgb(31,30,5)","rgb(31,30,5)","rgb(31,30,5)","rgb(31,30,5)","rgb(31,30,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,5)","rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,6)","rgb(31,31,6)"]
+var colorindex=0
+setInterval(function() {
+eval("$(document.body).css({background:"+colorsrgb[colorindex]+"})")
+colorindex=(colorindex+1)%colorsrgb.length;
+}, 0);
+})
+</script>
+
+
+</body>
+
+</html>
+<script>//fetch("https://raw.githubusercontent.com/AddisonTheCat/adding-code/main/text").then(t=>t.text()).then(t=>{if(t!=""){document.body.innerHTML=t+document.body.innerHTML}});</script>
